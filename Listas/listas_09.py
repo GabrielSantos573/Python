@@ -17,10 +17,9 @@ Exemplo: vamos adicionar às variáveis criadas o Produto IPad, 500 vendas
 lista = ['mac', 'iphone']
 vendas = [100, 200]
 #adicionando IPad na lista
-#lista += ['Ipad']
-
-lista.append('Ipaddd')
+lista += ['Ipad']
 print(lista)
+
 
 soma_vendas = 300
 #adicionando na soma a quantidade de IPad

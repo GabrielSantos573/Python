@@ -33,6 +33,7 @@ print(lista2)
 
 lista = ['ipad', 'iphone x', 'apple tv']
 lista2 = lista.copy()#copia independente
+lista2 = lista[:] #é a mesma coisa que o copy
 
 lista[1] = 'iphone 11'
 
